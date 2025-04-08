@@ -207,9 +207,9 @@ We calculated the Kakeya tube measure for the following L-functions:
 In all cases, the measure $M_L(\sigma)$ had a global minimum at $\sigma = 0.5$, suggesting that the equivalence between the Generalized Riemann Hypothesis and Kakeya tube measure minimality can be extended to a broad class of L-functions.
 
 The key results are as follows:
-1. Dirichlet L-function: Minimizing real part = 0.50000000, minimum measure = 0.48893446
-2. Modular L-function: Minimizing real part = 0.50000000, minimum measure = 0.49882092
-3. Elliptic curve L-function: Minimizing real part = 0.50000000, minimum measure = 0.50488901
+1. Dirichlet L-function: Minimizing real part = 0.50000000, minimum measure = 0.49681197
+2. Modular L-function: Minimizing real part = 0.50000000, minimum measure = 1304.83572910
+3. Elliptic curve L-function: Minimizing real part = 0.50000000, minimum measure = 0.49991769
 
 For all L-functions, the measure values at $s = 0.25$ and $s = 0.75$ were calculated to be exactly the same, confirming that the symmetry of the functional equation is correctly reflected in the measure.
 
