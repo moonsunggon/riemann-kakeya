@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Mapping Riemann Zeros to Topological Space</text>
+  
+  <!-- Dividing line -->
+  <line x1="400" y1="50" x2="400" y2="380" stroke="#ccc" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Complex plane -->
+  <g transform="translate(200, 200)">
+    <!-- Axes -->
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="#333" stroke-width="2" />
+    <line x1="0" y1="-150" x2="0" y2="150" stroke="#333" stroke-width="2" />
+    
+    <!-- Critical line -->
+    <line x1="75" y1="-150" x2="75" y2="150" stroke="#e41a1c" stroke-width="2" />
+    
+    <!-- Labels -->
+    <text x="155" y="15" font-family="Arial" font-size="14" text-anchor="end">Re(s)</text>
+    <text x="5" y="-135" font-family="Arial" font-size="14">Im(s)</text>
+    <text x="79" y="-135" font-family="Arial" font-size="14" fill="#e41a1c">σ=1/2</text>
+    
+    <!-- Origin -->
+    <text x="-10" y="15" font-family="Arial" font-size="12">0</text>
+    
+    <!-- Zeros -->
+    <circle cx="75" cy="-40" r="4" fill="#e41a1c" />
+    <circle cx="75" cy="-80" r="4" fill="#e41a1c" />
+    <circle cx="75" cy="-120" r="4" fill="#e41a1c" />
+    <circle cx="75" cy="40" r="4" fill="#e41a1c" />
+    <circle cx="75" cy="80" r="4" fill="#e41a1c" />
+    <circle cx="75" cy="120" r="4" fill="#e41a1c" />
+    
+    <!-- Coordinate system label -->
+    <text x="0" y="170" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Complex s-plane</text>
+  </g>
+  
+  <!-- Topological space -->
+  <g transform="translate(600, 200)">
+    <!-- Cylinder representation -->
+    <ellipse cx="0" cy="-140" rx="60" ry="15" fill="none" stroke="#333" stroke-width="2" />
+    <ellipse cx="0" cy="140" rx="60" ry="15" fill="none" stroke="#333" stroke-width="2" />
+    <line x1="-60" y1="-140" x2="-60" y2="140" stroke="#333" stroke-width="2" />
+    <line x1="60" y1="-140" x2="60" y2="140" stroke="#333" stroke-width="2" />
+    
+    <!-- Critical phase line -->
+    <line x1="0" y1="-145" x2="0" y2="145" stroke="#4daf4a" stroke-width="3" stroke-dasharray="4,4" />
+    
+    <!-- Zeros mapped to topological space -->
+    <circle cx="0" cy="-40" r="4" fill="#4daf4a" />
+    <circle cx="0" cy="-80" r="4" fill="#4daf4a" />
+    <circle cx="0" cy="-120" r="4" fill="#4daf4a" />
+    <circle cx="0" cy="40" r="4" fill="#4daf4a" />
+    <circle cx="0" cy="80" r="4" fill="#4daf4a" />
+    <circle cx="0" cy="120" r="4" fill="#4daf4a" />
+    
+    <!-- Labels -->
+    <text x="-70" y="0" font-family="Arial" font-size="14">t</text>
+    <text x="5" y="-135" font-family="Arial" font-size="14" fill="#4daf4a">θ=π/2</text>
+    
+    <!-- Coordinate system label -->
+    <text x="0" y="170" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Topological space S¹ × ℝ</text>
+  </g>
+  
+  <!-- Mapping arrow -->
+  <path d="M 350 200 L 450 200" stroke="#377eb8" stroke-width="3" marker-end="url(#arrowhead)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#377eb8" />
+    </marker>
+  </defs>
+  <text x="400" y="185" font-family="Arial" font-size="14" text-anchor="middle" fill="#377eb8">φ: mapping</text>
+  
+  <!-- Formula for mapping -->
+  <text x="400" y="350" font-family="Arial" font-size="16" font-style="italic" text-anchor="middle">φ(s = σ + it) = (φ(σ), t) where φ(1/2) = π/2</text>
+</svg>
