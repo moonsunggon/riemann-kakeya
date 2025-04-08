@@ -99,6 +99,10 @@ results = run_l_function_tests()
 문성곤. (2025). 리만 가설과 카케야 튜브 측도 최소성의 등가성: 위상 공간 해석. GitHub 저장소: https://github.com/username/riemann-kakeya
 ```
 
+```
+Moon, Sung-Gon. (2025). Equivalence of the Riemann Hypothesis and Kakeya Tube Measure Minimality: A Topological Space Interpretation. GitHub repository: https://github.com/username/riemann-kakeya
+```
+
 ## 라이선스
 
 이 연구는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
